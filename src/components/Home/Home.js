@@ -2,7 +2,7 @@ import "./Home.scss"
 import kuch from "../../assets/images/kuch.png"
 import picture1 from "../../assets/images/picture1.png"
 import picture2 from "../../assets/images/picture2.png"
-import Result from "../result/Result"
+import Result from "../Result/Result"
 import { useEffect, useState } from "react"
 import axios from "axios";
 
