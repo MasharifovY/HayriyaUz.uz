@@ -22,6 +22,11 @@
     margin: 0 auto;
     background-color: #f1f2f3;
 }
+.group-two{
+    position: relative;
+    bottom: 160px;
+    font-family: "Bebas";
+}
 .about__img-1{
     width: 400px;
     height: 530px;
@@ -50,9 +55,4 @@
     line-height: 28px;
     font-weight: 400;
     width: 620px;
-}
-.result{
-    background: url(../../assets/images/vector.png);
-    position: relative;
-    bottom: 50px;
 }
