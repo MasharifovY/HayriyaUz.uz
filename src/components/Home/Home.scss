@@ -12,3 +12,47 @@
     line-height: 96px;
     padding: 160px 0px 0px 100px;
 }
+.about{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1349px;
+    padding:130px 70px 0px ;
+    margin: 0 auto;
+    background-color: #f1f2f3;
+}
+.about__img-1{
+    width: 400px;
+    height: 530px;
+}
+.about__img-2{
+    width: 400px;
+    height: 530px;
+    position: relative;
+    bottom: 340px;
+    left: 150px;
+}
+.about__h5{
+    color: #0047FF;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.about__first-p{
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 88px;   
+    width: 540px; 
+}
+.about__second-p{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    width: 620px;
+}
+.result{
+    background: url(../../assets/images/vector.png);
+    position: relative;
+    bottom: 50px;
+}

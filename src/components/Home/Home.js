@@ -1,5 +1,7 @@
 import "./Home.scss"
 import kuch from "../../assets/images/kuch.png"
+import picture1 from "../../assets/images/picture1.png"
+import picture2 from "../../assets/images/picture2.png"
 
 function Home() {
     return (
@@ -10,10 +12,11 @@ function Home() {
             </div>
             <section className="about">
                 <div className="group-one">
-
+                    <img className="about__img-1" src={picture1} alt="picture2" />
+                    <img className="about__img-2" src={picture2} alt="picture1" />
                 </div>
                 <div className="group-two">
-                    <h5>Faoliyatimiz haqida</h5>
+                    <h5 className="about__h5">Faoliyatimiz haqida</h5>
                     <p className="about__first-p">Sahovatli insonlar yordami bilan, muhtojlarga ko'mak beramiz</p>
                     <p className="about__second-p">Yordamga yoki ko'makka muhtoj insonlar uchun sahovat
                     aksiyalari o'tkaziladi. Bu orqali ko'plab insonlarning og'iri
@@ -24,6 +27,9 @@ function Home() {
                     qo'shilishga va insoniylik tamoyillarini yanada mustahkamlashga
                     tayyormisiz?</p>
                 </div>
+            </section>
+            <section className="result">
+                <h2 className="result__h2">Sizning hamkorligingiz natijalari</h2>
             </section>
         </div>
     )
