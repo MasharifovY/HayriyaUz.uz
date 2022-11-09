@@ -9,9 +9,9 @@ function Footer() {
         <div className="general-box">
             <img className="logo-footer" src={logo} alt="logo-footer" />
             <div className="box-parent">
-                <img src={uzcard} alt="uzcard" />
-                <img src={humo} alt="humo" />
-                <img src={visa} alt="visa" />
+                <img src={uzcard} alt="uzcard" className="card-money-1" />
+                <img src={humo} alt="humo" className="card-money-2" />
+                <img src={visa} alt="visa" className="card-money-3" />
             </div>
             <hr />
             <p className="service">

@@ -1,0 +1,38 @@
+.my-task {
+  max-width: 1200px;
+  margin: auto;
+}
+.my-task .result__h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.my-task .row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.my-task .row .col-md-4 {
+  width: 32%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.my-task .row .col-md-4 img {
+  width: 100%;
+  border-radius: 10px;
+  aspect-ratio: 16/9;
+}
+@media (max-width: 1000px) {
+  .my-task .row .col-md-4 {
+    width: 48%;
+  }
+}
+@media (max-width: 768px) {
+  .my-task .row .col-sm-6 {
+    width: 48%;
+  }
+}
+@media (max-width: 576px) {
+  .my-task .row .col-sm-6 {
+    width: 98%;
+  }
+}/*# sourceMappingURL=Result.css.map */

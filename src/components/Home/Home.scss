@@ -4,6 +4,7 @@
     background-size: 100% 100%;
     height: 660px;
     width: 1349px;
+    margin: 0 auto;
 }
 .thank-3{
     color: #fff;
@@ -48,7 +49,7 @@
     font-weight: 400;
     font-size: 68px;
     line-height: 88px;   
-    width: 540px; 
+    width: 480px; 
 }
 .about__second-p{
     font-size: 24px;
@@ -84,5 +85,69 @@
                 color: #fff
             }
         }
+    }
+}
+@media only screen and (max-width: 480px){
+    .img-box-2{
+        background-size: 100% 100%;
+        height: 240px;
+        width: 480px;
+    }
+    .thank-3{
+        color: #fff;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 30px;
+        padding: 50px 0px 0px 30px;
+        // text-align: center;
+        display: flex;
+        margin: 0 auto;
+    }
+    .thank-2-1{
+        width: 240px;
+        height: 55px;
+        position: relative;
+        left: -70px;
+    }
+    .about{
+        display: block;
+        width: 480px;
+        padding-top: 70px;
+        background-color: #f1f2f3;
+    }
+    .about__img-1{
+        width: 200px;
+        height: 280px;
+    }
+    .about__img-2{
+        width: 200px;
+        height: 280px;
+        position: relative;
+        bottom: 180px;
+        left: 100px;
+    }
+    .about__h5{
+        color: #0047FF;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .about__first-p{
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;   
+        width: 340px; 
+        margin: 0 auto;
+        text-align: center;
+    }
+    .about__second-p{
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 400;
+        width: 340px;
+        margin: 0 auto;
+        margin-top: 25px;
+        text-align: center;
     }
 }

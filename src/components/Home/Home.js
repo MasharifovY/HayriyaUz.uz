@@ -27,10 +27,10 @@ function Home() {
         getPosts()
     }, [limit])
     return (
-        <div>
+        <div >
             <div className="img-box-2">
                 <p className="thank-3">Insonlar  <br /> ishonchidan</p>
-                <img className="thank-2" src={kuch} alt="minnatdormiz" />
+                <img className="thank-2 thank-2-1" src={kuch} alt="kuch olamiz" />
             </div>
             <section className="about">
                 <div className="group-one">

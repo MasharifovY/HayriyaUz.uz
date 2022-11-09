@@ -4,7 +4,7 @@ import minnatdormiz from "../../assets/images/minnaddormiz.png"
 function Payment() {
     return (
         <div>
-            <div className="img-box">
+            <div className="img-box ">
                 <p className="thank">Saxovatingiz va <br /> insoniyligingizdan</p>
                 <img className="thank-2" src={minnatdormiz} alt="minnatdormiz" />
             </div>

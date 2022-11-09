@@ -42,4 +42,59 @@ hr {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+  .general-box {
+    background-color: #000;
+    max-width: 480px;
+    margin: 0 auto;
+    height: 250px;
+  }
+  .logo-footer {
+    width: 180px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: absolute;
+    left: 140px;
+  }
+  .box-parent {
+    width: 430px;
+    margin: 0 auto;
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  hr {
+    border: 1px solid;
+    color: #00dfdd;
+    width: 420px;
+    margin: 0 auto;
+  }
+  .card-money-1 {
+    width: 60px;
+    height: 60px;
+    margin: 0px 10px;
+  }
+  .card-money-2 {
+    width: 90px;
+    height: 90px;
+    margin: 0px 10px;
+  }
+  .card-money-3 {
+    width: 150px;
+    height: 40px;
+    margin: 0px 10px;
+  }
+  .service {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
 }/*# sourceMappingURL=Footer.css.map */

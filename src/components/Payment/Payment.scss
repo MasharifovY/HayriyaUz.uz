@@ -4,6 +4,7 @@
     background-size: 100% 100%;
     height: 560px;
     width: 1349px;
+    margin: 0 auto;
 }
 .thank{
     color: #0047FF;
@@ -118,12 +119,10 @@
     margin: 0 auto;
     width: 400px;
     height: 50px;
-    // border: 1px solid;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
-    // border-radius: 25px;
     font-size: 25px;
 }
 .card .span {
@@ -131,11 +130,9 @@
     display: inline-block;
     padding: 10px 15px;
     margin: 40px 0;
-    // color: gold;
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
-    // letter-spacing: 4px;
     overflow: hidden;
     margin-right: 10px;
 }
@@ -241,5 +238,88 @@
     50%,
     100% {
         bottom: 100%;
+    }
+}
+@media only screen and (max-width: 480px){
+    .img-box{
+        background-size: 100% 45%;
+        height: 500px;
+        width: 480px;
+        background-color: #f2f6ff;
+        box-shadow: #f2f6ff;
+    }
+    .thank{
+        color: #0047FF;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 50px;
+        padding: 270px 0px 0px 90px;
+        text-align: center;
+        display: flex;
+        margin: 0 auto;
+    }
+    .thank-2{
+        width: 335px;
+        height: 55px;
+        margin: 0 auto;
+        position: relative;
+        bottom: 10px;
+        left: 30px;
+        
+    }
+    .money-sum{
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 38px;
+        margin: 0 auto;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        width: 480px;
+    }
+    .money{
+        display: block;
+        // align-items: center;
+        // justify-content: space-between;
+        width: 480px;
+        height: 150px;
+        margin: 0 auto;
+        // margin-bottom: 40px;
+    }
+    .btn {
+        width: 260px;
+        height: 50px;
+        border: none;
+        display: block;
+        outline: none;
+        color: #fff;
+        background: #111;
+        cursor: pointer;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 20px;
+        z-index: 0;
+        border-radius: 25px;
+    }
+    .card{
+        width: 380px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        font-size: 22px;
+    }
+    .card .span {
+        position: relative;
+        display: inline-block;
+        padding: 10px 15px;
+        margin: 40px 0;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        overflow: hidden;
+        // margin-right: 10px;
     }
 }
